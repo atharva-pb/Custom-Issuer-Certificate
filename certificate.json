@@ -109,8 +109,7 @@
         "age",
         "year",
         "month",
-        "date",
-        "documentType"
+        "date"
       ],
       "properties": {
         "id": {
