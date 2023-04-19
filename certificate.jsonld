@@ -1,0 +1,37 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "KYCAgeCredential": {
+          "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v100.json-ld#KYCAgeCredential",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "certificate-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "age": {
+                "@id": "certificate-vocab:birthday",
+                "@type": "xsd:integer"
+            },
+            "year": {
+                "@id": "certificate-vocab:birthday",
+                "@type": "xsd:integer"
+            },
+            "month": {
+                "@id": "certificate-vocab:birthday",
+                "@type": "xsd:integer"
+            },
+            "date": {
+                "@id": "certificate-vocab:birthday",
+                "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }
