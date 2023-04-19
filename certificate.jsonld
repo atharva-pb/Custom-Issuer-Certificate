@@ -6,28 +6,28 @@
         "id": "@id",
         "type": "@type",
         "KYCAgeCredential": {
-          "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v100.json-ld#KYCAgeCredential",
+          "@id": "https://raw.githubusercontent.com/atharva-pb/Custom-Issuer-Certificate/main/certificate.jsonld#certificate",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "certificate-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+            "certificate-vocab": "https://github.com/atharva-pb/Custom-Issuer-Certificate/blob/main/certificate-vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "age": {
-                "@id": "certificate-vocab:birthday",
+                "@id": "certificate-vocab:age",
                 "@type": "xsd:integer"
             },
             "year": {
-                "@id": "certificate-vocab:birthday",
+                "@id": "certificate-vocab:year",
                 "@type": "xsd:integer"
             },
             "month": {
-                "@id": "certificate-vocab:birthday",
+                "@id": "certificate-vocab:month",
                 "@type": "xsd:integer"
             },
             "date": {
-                "@id": "certificate-vocab:birthday",
+                "@id": "certificate-vocab:date",
                 "@type": "xsd:integer"
             }
           }
