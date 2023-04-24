@@ -119,15 +119,6 @@
         },
         "age": {
           "type": "integer"
-        },
-        "year": {
-          "type": "integer"
-        },
-        "month": {
-          "type": "integer"
-        },
-        "date": {
-          "type": "integer"
         }
       }
     }
