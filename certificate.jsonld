@@ -12,22 +12,22 @@
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "https://github.com/atharva-pb/Custom-Issuer-Certificate/blob/main/certificate-vocab.md#",
+            "vocab": "https://raw.githubusercontent.com/atharva-pb/Custom-Issuer-Certificate/main/vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "age": {
-                "@id": "certificate-vocab:age",
+                "@id": "vocab:age",
                 "@type": "xsd:integer"
             },
             "year": {
-                "@id": "certificate-vocab:year",
+                "@id": "vocab:year",
                 "@type": "xsd:integer"
             },
             "month": {
-                "@id": "certificate-vocab:month",
+                "@id": "vocab:month",
                 "@type": "xsd:integer"
             },
             "date": {
-                "@id": "certificate-vocab:date",
+                "@id": "vocab:date",
                 "@type": "xsd:integer"
             }
           }
