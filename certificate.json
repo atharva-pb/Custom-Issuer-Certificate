@@ -106,10 +106,7 @@
       "type": "object",
       "required": [
         "id",
-        "age",
-        "year",
-        "month",
-        "date"
+        "age"
       ],
       "properties": {
         "id": {
