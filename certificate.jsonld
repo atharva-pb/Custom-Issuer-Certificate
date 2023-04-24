@@ -5,7 +5,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "KYCAgeCredential": {
+        "certificate": {
           "@id": "https://raw.githubusercontent.com/atharva-pb/Custom-Issuer-Certificate/main/certificate.jsonld#certificate",
           "@context": {
             "@version": 1.1,
