@@ -1,4 +1,3 @@
-[comment]: <> ([age is ]&# 40;# age&# 41;)
 # age
 
 age represents person age as integer value
@@ -9,7 +8,7 @@ age represents person age as integer value
 
 # year
 
-year represents person age as integer value
+year represents person year of birth as integer value
 
 ```
   "year": 1998
@@ -18,15 +17,15 @@ year represents person age as integer value
 
 # month
 
-month represents person age as integer value
+month represents person month of birth as integer value
 
 ```
-  "month": 02
+  "month": 2
 ```
 
 # date
 
-date represents person age as integer value
+date represents person date of birth as integer value
 
 ```
   "date": 12
