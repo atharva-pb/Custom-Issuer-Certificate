@@ -6,7 +6,7 @@
         "id": "@id",
         "type": "@type",
         "certificate": {
-          "@id": "https://raw.githubusercontent.com/atharva-pb/Custom-Issuer-Certificate/main/certificate.jsonld#certificate",
+          "@id": "https://raw.githubusercontent.com/atharva-pb/Custom-Issuer-Certificate/main/birthCertificate.jsonld#birthCertificate",
           "@context": {
             "@version": 1.1,
             "@protected": true,
