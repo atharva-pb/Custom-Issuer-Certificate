@@ -12,7 +12,7 @@
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "https://raw.githubusercontent.com/atharva-pb/Custom-Issuer-Certificate/main/vocab.md#",
+            "vocab": "https://raw.githubusercontent.com/atharva-pb/Custom-Issuer-Certificate/main/vocab/birthCertificate.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "age": {
                 "@id": "vocab:age",
